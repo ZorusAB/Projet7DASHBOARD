@@ -26,8 +26,8 @@ liste_features = pickle.load(open('liste_features.pkl', 'rb'))
 documentation = pickle.load(open('documentation', 'rb'))
 
 # Définition des URLs à appeler pour les requêtes
-url='http://127.0.0.1:5000/api'
-url_traitement='http://127.0.0.1:5000/traitement'
+url='https://prediction-pret-banque.herokuapp.com/api'
+url_traitement='https://prediction-pret-banque.herokuapp.com/traitement'
 headers = {'Content-Type' : 'application/json'}
                         
                         
