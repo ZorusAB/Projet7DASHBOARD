@@ -10,7 +10,6 @@ from streamlit_shap import st_shap
 import streamlit.components.v1 as components
 import matplotlib
 import matplotlib.pyplot as plt
-matplotlib.use('Qt5Agg')
 import requests
 from PIL import Image
 
