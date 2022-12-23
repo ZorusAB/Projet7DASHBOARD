@@ -21,7 +21,7 @@ model = pickle.load(open(filename_model,'rb'))
 moyennes = pickle.load(open('moyennes', 'rb'))
 liste_variables_impactantes = pickle.load(open('liste_variable_impact', 'rb'))
 explainer = pickle.load(open('explainer_2', 'rb'))
-image = Image.open('shap.png')                        
+image = Image.open('shap.PNG')                        
 liste_features = pickle.load(open('liste_features.pkl', 'rb'))
 documentation = pickle.load(open('documentation', 'rb'))
 
